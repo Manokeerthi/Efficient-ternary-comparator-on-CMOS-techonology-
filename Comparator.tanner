@@ -1,0 +1,7 @@
+workspace loadfrom -path .
+cell open -design Comparator -cell 4bit_AT_EQ_BT -type schematic -newwindow
+window move -left 130 -top 130 -width 798 -height 321 -undock -max 
+window fit -x0 -455 -y0 -443 -x1 5857 -y1 2547 -units iu
+workspace dockinglayout load -file {.\dockinglayout.xml}
+source open.design -relativeto user
+source open.design -relativeto design
